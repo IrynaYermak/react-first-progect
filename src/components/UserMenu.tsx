@@ -1,15 +1,15 @@
-import { useDebugValue } from 'react';
-import { HiUser } from 'react-icons/hi';
-import css from './UserMenu.module.css';
+// import { useDebugValue } from 'react';
+// import { HiUser } from 'react-icons/hi';
+// import css from './UserMenu.module.css';
 
-interface UserMenuProps {
-  name: string;
-}
+// interface UserMenuProps {
+//   name: string;
+// }
 
-export default function UserMenu({ name }: UserMenuProps) {
-  return (
-    <div>
-      <HiUser className={css.icon} size={24} /> {name}
-    </div>
-  );
-}
+// export default function UserMenu({ name }: UserMenuProps) {
+//   return (
+//     <div>
+//       <HiUser className={css.icon} size={24} /> {name}
+//     </div>
+//   );
+// }
